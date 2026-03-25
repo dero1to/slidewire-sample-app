@@ -79,8 +79,9 @@ composer require wendelladriel/slidewire
                 </x-slidewire::code>
             </x-slidewire::fragment>
             <x-slidewire::fragment>
-                <p class="text-lg text-slate-300 mb-2">2. Tailwind CSS に @source を追加</p>
+                <p class="text-lg text-slate-300 mb-2">2. SlideWire のソースを @source で追加</p>
                 <x-slidewire::code language="css" size="text-sm">
+/* app.css */
 @source '../../vendor/wendelladriel/slidewire/resources/views/**/*.blade.php';
 @source '../../vendor/wendelladriel/slidewire/src/**/*.php';
                 </x-slidewire::code>
