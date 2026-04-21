@@ -61,7 +61,7 @@ new class extends Component {
             <h2 class="text-3xl font-bold">動作要件</h2>
             <x-slidewire::steps-slide columns="2" style="cards">
                 <x-slidewire::step-item title="PHP ^8.4" description="最新の PHP バージョン" style="cards" />
-                <x-slidewire::step-item title="Laravel ^12.0" description="Laravel フレームワーク" style="cards" />
+                <x-slidewire::step-item title="Laravel ^13.0" description="Laravel フレームワーク" style="cards" />
                 <x-slidewire::step-item title="Livewire ^4.0" description="リアクティブ UI" style="cards" />
                 <x-slidewire::step-item title="Tailwind CSS ^4.0" description="ユーティリティ CSS" style="cards" />
             </x-slidewire::steps-slide>
